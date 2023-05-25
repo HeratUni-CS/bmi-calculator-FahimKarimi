@@ -1,5 +1,5 @@
-import 'package:bmi_calculator_app/Components/BottomContainer_Button.dart';
-import 'package:bmi_calculator_app/constants.dart';
+import '../Components/BottomContainer_Button.dart';
+import '../constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../Components/Reusable_Bg.dart';
@@ -25,13 +25,13 @@ class ResultPage extends StatelessWidget {
         ),
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Expanded(
             child: Container(
-              padding: EdgeInsets.all(15),
-              alignment: Alignment.bottomLeft,
+              padding: EdgeInsets.all(15.0),
+              alignment: Alignment.bottomCenter,
               child: Text(
                 'Your Result',
                 style: ktitleTextStyle,
