@@ -50,7 +50,7 @@ class ResultPage extends StatelessWidget {
                     resultText,
                     style: TextStyle(
                       color: textColor,
-                      fontSize: 27.0,
+                      fontSize: 25.0,
                       fontWeight: FontWeight.bold,
                     ),
                   ),

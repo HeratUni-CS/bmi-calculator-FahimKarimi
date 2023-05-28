@@ -25,7 +25,7 @@ class _InputPageState extends State<InputPage> {
   //by default male will be selected
 
   late Gender selectedGender = Gender.male;
-  int height = 180;
+  int height = 160;
   int weight = 50;
   int age = 20;
   @override
@@ -115,8 +115,8 @@ class _InputPageState extends State<InputPage> {
                     ),
                     child: Slider(
                       value: height.toDouble(),
-                      min: 120,
-                      max: 220,
+                      min: 80,
+                      max: 230,
                       onChanged: (double newValue) {
                         setState(() {
                           height = newValue.round();
@@ -236,16 +236,6 @@ class _InputPageState extends State<InputPage> {
           ),
         ],
       ),
-
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: () {},
-      //   child: Icon(
-      //     Icons.favorite,
-      //     color: Colors.pink,
-      //     size: 23.0,
-      //   ),
-      //   backgroundColor: kactiveCardColor,
-      // ),
     );
   }
 }

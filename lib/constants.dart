@@ -10,7 +10,7 @@ const klabelTextStyle = TextStyle(
   color: Color(0xFF8A8EA1),
 );
 const kDigitTextStyle = TextStyle(
-  fontSize: 50,
+  fontSize: 70,
   fontWeight: FontWeight.w900,
 );
 const klargeBottomButtonTextStyle = TextStyle(
@@ -19,7 +19,7 @@ const klargeBottomButtonTextStyle = TextStyle(
   fontSize: 25.0,
 );
 const ktitleTextStyle = TextStyle(
-  fontSize: 50.0,
+  fontSize: 60.0,
   fontWeight: FontWeight.bold,
 );
 const kResultTextStyle = TextStyle(

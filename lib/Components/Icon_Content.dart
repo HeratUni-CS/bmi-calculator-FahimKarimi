@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import '../../constants.dart';
+import '../constants.dart';
 
 const sizedBox = SizedBox(
   height: 15.0,
 );
 
-const iconSize = 80.0;
+const iconSize = 90.0;
 
 class IconContent extends StatelessWidget {
   final IconData myicon;
